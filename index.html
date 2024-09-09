@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Fiverr | Freelance services marketplace | Find top global talent
+    </title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://fiverr-res.cloudinary.com/npm-assets/layout-service/favicon-32x32.8f21439.png"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://fonts.cdnfonts.com/css/helvetica-neue-55"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="navBarSide fixed-top">
+      <div class="container">
+        <nav class="navbar navbar-expand-sm mt-3">
+          <div class="container">
+            <a class="navbar-brand" href="javascript:void(0)">
+              <img src="./img/logo/Frame.png" alt="Logo" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#mynavbar"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+              <div id="myItem2">
+                <form class="example" id="#myItem2" action="action_page.php">
+                  <input
+                    type="text"
+                    placeholder="What service are you looking for today?.."
+                    name="search"
+                  />
+                  <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+              </div>
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item mx-2">
+                  <a class="nav-link" href="#">
+                    <div class="dropdown">
+                      <button
+                        class="btn btn-secondary dropdown-toggle"
+                        type="button"
+                        id="dropdownMenu2"
+                        data-bs-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        Fiverr Pro
+                      </button>
+                      <div
+                        class="dropdown-menu"
+                        aria-labelledby="dropdownMenu2"
+                      >
+                        <button class="dropdown-item" type="button">
+                          Action
+                        </button>
+                        <button class="dropdown-item" type="button">
+                          Another action
+                        </button>
+                        <button class="dropdown-item" type="button">
+                          Something else here
+                        </button>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li class="nav-item mx-1">
+                  <a class="nav-link" href="javascript:void(0)">
+                    <div class="dropdown">
+                      <button
+                        class="btn btn-secondary dropdown-toggle"
+                        type="button"
+                        id="dropdownMenu2"
+                        data-bs-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        Explore
+                      </button>
+                      <div
+                        class="dropdown-menu"
+                        aria-labelledby="dropdownMenu2"
+                      >
+                        <button class="dropdown-item" type="button">
+                          Action
+                        </button>
+                        <button class="dropdown-item" type="button">
+                          Another action
+                        </button>
+                        <button class="dropdown-item" type="button">
+                          Something else here
+                        </button>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li class="nav-item mx-1 mt-1">
+                  <a class="nav-link hovercolor" href="javascript:void(0)">
+                    <i class="fa-solid fa-globe"></i> English
+                  </a>
+                </li>
+                <li class="nav-item mt-1">
+                  <a class="nav-link hovercolor" href="javascript:void(0)"
+                    >Became a Seller</a
+                  >
+                </li>
+                <li class="nav-item mx-1 mt-1">
+                  <a class="nav-link hovercolor" href="javascript:void(0)">
+                    Sign in
+                  </a>
+                </li>
+                <li class="nav-item mx-1">
+                  <a class="nav-link" href="javascript:void(0)">
+                    <button class="navbtn">Join</button>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- for mobile Screen navigation bar -->
+    <div class="container-fluid fixed-top mobilenavMain">
+      <div class="container mobileNav">
+        <div class="mobileNavLeft">
+          <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+            >&#9776;
+          </span>
+        </div>
+        <div class="mobileNavCenter">
+          <img src="./img/logo/Frame.png" alt="" />
+        </div>
+        <div class="mobileNavRight mt-2"><a href="#">Join</a></div>
+      </div>
+    </div>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <button class="sideButton">Join Fiverr</button>
+      <div class="sideListItem">
+        <ul>
+          <li><a href="#">Sign in</a></li>
+          <li><a href="#">Sign in</a></li>
+          <li><a href="#">Sign in</a></li>
+          <li><a href="#">Sign in</a></li>
+          <li><a href="#">Sign in</a></li>
+          <li><a href="#">Sign in</a></li>
+          <li><a href="#">Sign in</a></li>
+          <li><a href="#">Sign in</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="bottom-arrow hide .chat-thread-msg"></div>
+
+    <div class="fixed-top" id="myItem">
+      <div class="container">
+        <ul class="itemlist mt-2">
+          <li><a href="#">Graphics & Design</a></li>
+          <li><a href="#">Programming & Tech</a></li>
+          <li><a href="#">Digital Marketing</a></li>
+          <li><a href="#">Video & Animation</a></li>
+          <li><a href="#">Writing & Translation</a></li>
+          <li><a href="#">Music & Audio</a></li>
+          <li><a href="#"> Business</a></li>
+          <li><a href="#">Consulting</a></li>
+          <li><a href="#">Data </a></li>
+          <li><a href="#">AI Services</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="heroSection">
+      <div class="hero container">
+        <!-- <img src="./img/icon/mainbanner.webp" alt="" /> -->
+        <!-- <div class="search">
+          <div class="heroSearchIcon"><span class="fa fa-search"></span></div>
+          <input placeholder="Search term" />
+        </div> -->
+        <div class="herotext">
+          <h1 class="heroHeadig">
+            Find the right <span>freelance </span><br />
+            service, right away
+          </h1>
+        </div>
+        <form>
+          <div class="search-container">
+            <input
+              type="text"
+              name="search"
+              id="inputSearch"
+              placeholder="Search for any service..."
+            />
+            <div class="searchbtn">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+          </div>
+        </form>
+        <div class="heroimgdiv">
+          <img src="./img/icon/social.png" alt="" class="heroimg2" />
+        </div>
+      </div>
+    </div>
+    <div class="mobileHero">
+      <div class="container-fluid">
+        <div class="mobileheroHeading">
+          <h1>
+            Find the right <br />
+            <span> freelance </span>service, <br />
+            right away
+          </h1>
+        </div>
+        <div class="mobileHeroSearch">
+          <form>
+            <div class="search-container">
+              <input
+                type="text"
+                name="search"
+                id="inputSearch"
+                placeholder="Search for any service..."
+              />
+              <div class="searchbtn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <hr class="footerHrTop" />
+    <div class="footer">
+      <div class="footerSection container">
+        <div class="row">
+          <div class="col-lg-2 col-md-4 footerMenu">
+            <div class="footerItem">
+              <p class="footerHeader">Categories</p>
+              <ul>
+                <li><a href="#">Graphics & Design</a></li>
+                <li><a href="#">Digital Marketing</a></li>
+                <li><a href="#">Writing & Translation</a></li>
+                <li><a href="#">Video & Animation</a></li>
+                <li><a href="#">Music & Audio</a></li>
+                <li><a href="#">Fiverr Logo Maker</a></li>
+                <li><a href="#">Programming & Tech</a></li>
+                <li><a href="#">Data</a></li>
+                <li><a href="#">Business</a></li>
+                <li><a href="#">Lifestyle</a></li>
+                <li><a href="#">Photography</a></li>
+                <li><a href="#">End-to-End Projects</a></li>
+                <li><a href="#">Sitemap</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 footerMenu">
+            <div class="footerItem">
+              <p class="footerHeader">About</p>
+              <ul>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Press & News</a></li>
+                <li><a href="#">Partnerships</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Intellectual Property Claims</a></li>
+                <li><a href="#">Investor Relations</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4 footerMenu">
+            <div class="footerItem">
+              <p class="footerHeader">Support and Education</p>
+              <ul>
+                <li><a href="#">Help & Support</a></li>
+                <li><a href="#">Trust & Safety </a></li>
+                <li><a href="#">Selling on Fiverr</a></li>
+                <li><a href="#">Buying on Fiverr</a></li>
+                <li><a href="#">Fiverr Guides</a></li>
+                <li>
+                  <a href="#"
+                    >Learn <br />
+                    <span> Online Courses </span></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 footerMenu">
+            <div class="footerItem">
+              <p class="footerHeader">Community</p>
+              <ul>
+                <li><a href="#">Customer Success Stories</a></li>
+                <li><a href="#">Community Hub</a></li>
+                <li><a href="#">Forum</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Creators</a></li>
+                <li><a href="#">Affiliates</a></li>
+                <li><a href="#">Podcast</a></li>
+                <li><a href="#">Invite a Friend</a></li>
+                <li><a href="#">Become a Seller</a></li>
+                <li><a href="#">Community Standards</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4 footerMenu">
+            <div class="footerItem">
+              <p class="footerHeader">Business Solutions</p>
+              <ul>
+                <li><a href="#">About Business Solutions</a></li>
+                <li><a href="#">Fiverr Pro</a></li>
+                <li><a href="#">Fiverr Certified</a></li>
+                <li><a href="#">Become an Agency</a></li>
+                <li><a href="#">Fiverr Enterprise</a></li>
+                <li>
+                  <a href="#"
+                    >ClearVoice <br />
+                    <span> Content Marketing</span></a
+                  >
+                </li>
+                <li><a href="#">Working Not Working</a></li>
+                <li><a href="#"> Contact Sales</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="footerHrBottom" />
+      <div class="footerBottom">
+        <div class="container footerBottomSide">
+          <div class="footerLeftSide">
+            <div class="bottomLeft">
+              <img src="./img/logo/Frame2.png" alt="" />
+              <i class="fa-regular fa-copyright"></i>
+              <span>Fiverr International Ltd. 2024 </span>
+            </div>
+          </div>
+          <div class="footerRightSide">
+            <div class="footerSocial"><i class="fa-brands fa-tiktok"></i></div>
+            <div class="footerSocial">
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div class="footerSocial">
+              <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <div class="footerSocial">
+              <i class="fa-brands fa-facebook"></i>
+            </div>
+            <div class="footerSocial">
+              <i class="fa-brands fa-pinterest"></i>
+            </div>
+            <div class="footerSocial">
+              <i class="fa-brands fa-x-twitter"></i>
+            </div>
+            <div class="footerSocial2">
+              <i class="fa-solid fa-globe"></i>English
+            </div>
+            <div class="footerSocial3">$ USD</div>
+            <div class="footerSocial">
+              <i class="far fa-universal-access"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
